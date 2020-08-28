@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/cv/static/css/main.61052cfd.chunk.css",
+    "main.js": "/cv/static/js/main.b4360b3b.chunk.js",
+    "main.js.map": "/cv/static/js/main.b4360b3b.chunk.js.map",
+    "runtime-main.js": "/cv/static/js/runtime-main.c17789b0.js",
+    "runtime-main.js.map": "/cv/static/js/runtime-main.c17789b0.js.map",
+    "static/js/2.6bc79447.chunk.js": "/cv/static/js/2.6bc79447.chunk.js",
+    "static/js/2.6bc79447.chunk.js.map": "/cv/static/js/2.6bc79447.chunk.js.map",
+    "index.html": "/cv/index.html",
+    "precache-manifest.8d9e36f4cc970b2740485945e319ed6b.js": "/cv/precache-manifest.8d9e36f4cc970b2740485945e319ed6b.js",
+    "service-worker.js": "/cv/service-worker.js",
+    "static/css/main.61052cfd.chunk.css.map": "/cv/static/css/main.61052cfd.chunk.css.map",
+    "static/js/2.6bc79447.chunk.js.LICENSE.txt": "/cv/static/js/2.6bc79447.chunk.js.LICENSE.txt",
+    "static/media/GlacialIndifference-Bold.otf": "/cv/static/media/GlacialIndifference-Bold.070a9269.otf",
+    "static/media/GlacialIndifference-Regular.otf": "/cv/static/media/GlacialIndifference-Regular.008080d5.otf",
+    "static/media/norwester.otf": "/cv/static/media/norwester.7bf22630.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c17789b0.js",
+    "static/js/2.6bc79447.chunk.js",
+    "static/css/main.61052cfd.chunk.css",
+    "static/js/main.b4360b3b.chunk.js"
+  ]
+}
