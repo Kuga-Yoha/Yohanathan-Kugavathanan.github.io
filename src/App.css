@@ -1,0 +1,224 @@
+#wrap {
+  overflow: hidden;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+}
+.side-left,
+.side-right {
+  height: 100%;
+}
+.side-left {
+  background-color: #408697; /* f5dc1d ,rgb(34,34,34)  ,#242552, #3f639f*/
+  color: #f6f6f6;
+  float: left;
+  padding-left: 2.2%;
+  padding-right: 4%;
+  padding-top: 0px;
+  width: 25%;
+  padding-block-start: 5%;
+  text-align: justify;
+  align-content: center;
+  font-family: GlacialIndifference-Regular;
+  padding-bottom: 500em;
+  margin-bottom: -500em;
+}
+
+.profile {
+  border-radius: 90%;
+
+  display: block;
+
+  margin-right: auto;
+}
+
+.side-left h4 {
+  background-color: #d6d6d6;
+  color: #064855; /*#1f628e*/
+  padding: 0.5em;
+  text-transform: uppercase;
+  width: 100%;
+  font-family: norwester;
+  font-weight: bold;
+  white-space: normal;
+}
+
+.side-left span {
+  text-transform: uppercase;
+}
+.side-left .name {
+  font-size: 25px;
+  text-align: center;
+  font-family: norwester;
+  display: inline;
+  transform: scale(4, 1); /*Defines a 2D scale transformation*/
+}
+
+.side-left .pdescription {
+  text-transform: initial;
+  width: 20%;
+  overflow: hidden;
+  line-height: 1.5em;
+  height: 3em;
+  word-break: break-word;
+}
+.side-left .job {
+  font-size: 11.5px;
+}
+
+.side-left img {
+  max-width: 100%;
+  height: auto;
+}
+.side-right {
+  /*padding-inline-start: 40%;*/
+  float: left;
+  font-family: GlacialIndifference-Regular;
+  width: 50%;
+  color: #000000;
+  margin-top: -20px;
+  padding-left: 60px;
+  padding-bottom: 500em;
+  margin-bottom: -500em;
+}
+.side-right h4 {
+  background-color: #408697; /* f5dc1d ,rgb(34,34,34)  ,#242552, #3f639f*/ /*#2f2fa2  #242582* 242552 */
+  color: white;
+  padding: 0.5em;
+  font-size: 15.4px;
+  font-family: norwester;
+  width: 100%;
+  transform: scale(1, 1);
+}
+.side-right .college {
+  font-weight: bold;
+}
+
+.side-right .education {
+  margin: 1px;
+  padding: 15px;
+}
+
+.contact-header {
+  background-color: #1f628e;
+  color: white;
+  padding: 0.5em;
+  font-size: 15.4px;
+  font-family: norwester;
+  width: 100%;
+  transform: scale(1, 1);
+  padding-inline-start: 40%;
+}
+
+.side-right .submit-btn {
+  background-color: #008cba;
+  color: white;
+  font-size: 1em;
+  padding: 2% 2%;
+  width: 30%;
+  border-radius: 2%;
+  border-color: white;
+  border: none;
+  font-family: GlacialIndifference-Regular;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 3%;
+}
+
+.side-right .submit-btn:hover {
+  background-color: #008cba;
+  color: black;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.side-right input {
+  width: 90%;
+  padding: 5% 10% 5% 5%;
+  margin-top: 1em;
+  border: none;
+  font: Tahoma; /*#008cba*/
+  font-size: 12px;
+  align-content: center;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.side-right #description {
+  padding-top: 10%;
+  padding-bottom: 20%;
+}
+.side-left .proDescription {
+  word-break: normal;
+}
+
+.side-left table {
+  width: 100%;
+}
+
+.side-left grphone {
+  color: white;
+}
+.side-left .pdescription {
+  text-transform: initial;
+  overflow: hidden;
+  word-break: break-word;
+}
+
+/*
+{
+  color: white;
+  padding: 1px;
+  height: 20%;
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media only screen and (max-width: 620px) {
+  .side-left .side-right {
+    width: 100%;
+    /* The width is 100%, when the viewport is 800px or smaller */
+  }
+
+  #wrap {
+    overflow: auto;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .side-left {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-right: 15%;
+    padding-left: 2%;
+    width: 90%;
+  }
+
+  .side-right {
+    float: none;
+    margin-top: 0;
+    padding-left: 2%;
+    word-break: normal;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    width: 90%;
+  }
+
+  .side-right input[type="text"] {
+    width: 90%;
+    padding: 5% 10% 5% 5%;
+    border-radius: 4px;
+    border: 2px solid #222522;
+    font: Tahoma; /*#008cba*/
+    font-size: 12px;
+  }
+
+  .side-right .submit-btn {
+    float: center;
+    width: 30%;
+  }
+
+  .side-left .form {
+    width: 100%;
+  }
+}

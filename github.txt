@@ -1,0 +1,12 @@
+npm install gh-pages
+
+git init
+
+git remote add origin https://github.com/Yohanathan-Kugavathanan/Yohanathan-Kugavathanan.github.io.git
+
+npm start
+
+git status
+
+npm run deploy
+
